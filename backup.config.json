@@ -1,0 +1,64 @@
+{
+  "mongodb": [{
+    "host": "mongo",
+    "port": 27017,
+    "username": false,
+    "password": false,
+    "db": "articles"
+  },
+  {
+    "host": "mongo",
+    "port": 27017,
+    "username": false,
+    "password": false,
+    "db": "admin"
+  },
+  {
+    "host": "mongo",
+    "port": 27017,
+    "username": false,
+    "password": false,
+    "db": "admins"
+  },
+  {
+    "host": "mongo",
+    "port": 27017,
+    "username": false,
+    "password": false,
+    "db": "brute"
+  },
+  {
+    "host": "mongo",
+    "port": 27017,
+    "username": false,
+    "password": false,
+    "db": "installations"
+  },
+  {
+    "host": "mongo",
+    "port": 27017,
+    "username": false,
+    "password": false,
+    "db": "interactions"
+  },
+  {
+    "host": "mongo",
+    "port": 27017,
+    "username": false,
+    "password": false,
+    "db": "users"
+  }],
+  "s3": {
+    "key": "AKIAJ5NAEYPBSG7GKTPA",
+    "secret": "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",
+    "bucket": "instanews-mongo-backups",
+    "destination": "/",
+    "encrypt": false,
+    "region": "us-west-2"
+  },
+  "numOfArchives": 10,
+  "cron": {
+    "time": "00:00"
+  }
+}
+
