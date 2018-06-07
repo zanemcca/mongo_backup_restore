@@ -49,9 +49,9 @@
     "db": "users"
   }],
   "s3": {
-    "key": "AKIAJ5NAEYPBSG7GKTPA",
-    "secret": "1SbmQeVAHijyg22sxNCuYQpxOsEmMmZf51oii76P",
-    "bucket": "instanews-mongo-backups",
+    "key": "your_api_key",
+    "secret": "your_secret_key",
+    "bucket": "your_bucket_name",
     "destination": "/",
     "encrypt": false,
     "region": "us-west-2"
